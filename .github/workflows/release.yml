@@ -1,0 +1,28 @@
+# Copyright (c) Jiaqi Liu
+name: Data CI/CD
+
+'on':
+  pull_request:
+  push:
+    branches:
+      - master
+jobs:
+  data-ci-cd:
+    name: Generate Data of Various Format from Spec
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: Install dependencies
+        run: pip install peitho_data
+      - run: mkdir generated && python .github/convert_specs.py
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: generated
+          user_name: QubitPi
+          user_email: jack20220723@gmail.com
