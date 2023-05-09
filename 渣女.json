@@ -1,0 +1,120 @@
+{
+    "nodes": [
+        {
+            "id": "家庭一般不富裕",
+            "fields": {
+                "name": "家庭一般不富裕",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "收入不高",
+            "fields": {
+                "name": "收入不高",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "喜欢钱",
+            "fields": {
+                "name": "喜欢钱",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "贪婪",
+            "fields": {
+                "name": "贪婪",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "虚荣",
+            "fields": {
+                "name": "虚荣",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "崇洋媚外",
+            "fields": {
+                "name": "崇洋媚外",
+                "reference": "https://www.zhihu.com/question/31815916/answer/215673447"
+            }
+        },
+        {
+            "id": "伪善",
+            "fields": {
+                "name": "伪善",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "肤浅",
+            "fields": {
+                "name": "肤浅",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "装作不在乎钱",
+            "fields": {
+                "name": "装作不在乎钱",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "若即若离",
+            "fields": {
+                "name": "若即若离",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387",
+                "description": "喜欢搞暧昧，对方靠太近了就冷遇对方、打击对方，对方离远了就又主动开始勾搭送温暖，对于自己不喜欢的人的一切示好都不拒绝"
+            }
+        },
+        {
+            "id": "当婊子立牌坊",
+            "fields": {
+                "name": "当婊子立牌坊",
+                "reference": "https://www.zhihu.com/question/31815916/answer/54608387"
+            }
+        },
+        {
+            "id": "有男朋友",
+            "fields": {
+                "name": "有男朋友 ",
+                "reference": "https://www.zhihu.com/question/31815916/answer/53404443"
+            }
+        },
+        {
+            "id": "从未在任何社交网络上提到过你的存在",
+            "fields": {
+                "name": "从未在任何社交网络上提到过你的存在",
+                "reference": "https://www.zhihu.com/question/31815916/answer/53404443"
+            }
+        },
+        {
+            "id": "喜当爹",
+            "fields": {
+                "name": "喜当爹",
+                "reference": "https://www.zhihu.com/question/31815916/answer/53404443"
+            }
+        },
+        {
+            "id": "制造暧昧假象",
+            "fields": {
+                "name": "制造暧昧假象",
+                "reference": "https://www.zhihu.com/question/31815916/answer/215673447",
+                "description": "不明确表明态度，总是制造暧昧假象，比如说些莫名其妙的亲密的话语，让你琢磨不透"
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "虚荣",
+            "target": "崇洋媚外",
+            "fields": {
+                "label": "表现"
+            }
+        }
+    ]
+}

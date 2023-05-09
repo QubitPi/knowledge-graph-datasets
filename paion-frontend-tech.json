@@ -1,0 +1,283 @@
+{
+    "nodes": [
+        {
+            "id": "frontend-techs",
+            "fields": {
+                "name": "前端开发技术"
+            }
+        },
+        {
+            "id": "webpack",
+            "fields": {
+                "name": "webpack"
+            }
+        },
+        {
+            "id": "react",
+            "fields": {
+                "name": "React",
+                "官网": "https://react.dev/"
+            }
+        },
+        {
+            "id": "typescript",
+            "fields": {
+                "name": "TypeScript",
+                "官网": "https://www.typescriptlang.org/"
+            }
+        },
+        {
+            "id": "redux",
+            "fields": {
+                "name": "Redux",
+                "官网": "https://redux.js.org/"
+            }
+        },
+        {
+            "id": "react-redux",
+            "fields": {
+                "name": "React Redux",
+                "官网": "https://react-redux.js.org/"
+            }
+        },
+        {
+            "id": "redux-toolkit",
+            "fields": {
+                "name": "Redux Toolkit",
+                "官网": "https://redux-toolkit.js.org/"
+            }
+        },
+        {
+            "id": "testing",
+            "fields": {
+                "name": "测试"
+            }
+        },
+        {
+            "id": "cypress",
+            "fields": {
+                "name": "Cypress",
+                "官网": "https://docs.cypress.io/"
+            }
+        },
+        {
+            "id": "mocha",
+            "fields": {
+                "name": "Mocha",
+                "官网": "https://mochajs.org/"
+            }
+        },
+        {
+            "id": "jest",
+            "fields": {
+                "name": "Jest",
+                "官网": "https://jestjs.io/"
+            }
+        },
+        {
+            "id": "login",
+            "fields": {
+                "name": "登录界面开发"
+            }
+        },
+        {
+            "id": "editor",
+            "fields": {
+                "name": "编辑器开发"
+            }
+        },
+        {
+            "id": "lexical",
+            "fields": {
+                "name": "Lexical",
+                "官网": "https://lexical.dev/"
+            }
+        },
+        {
+            "id": "jwt",
+            "fields": {
+                "name": "JWT token",
+                "官网": "https://jwt.io/"
+            }
+        },
+        {
+            "id": "graphql",
+            "fields": {
+                "name": "GraphQL",
+                "官网": "https://graphql.org/"
+            }
+        },
+        {
+            "id": "apollo-client",
+            "fields": {
+                "name": "Apollo Client",
+                "官网": "https://www.apollographql.com/docs/react/"
+            }
+        },
+        {
+            "id": "nodejs",
+            "fields": {
+                "name": "Node.js",
+                "官网": "https://nodejs.org/zh-cn"
+            }
+        },
+        {
+            "id": "expressjs",
+            "fields": {
+                "name": "Express JS",
+                "官网": "https://expressjs.com/"
+            }
+        },
+        {
+            "id": "nvm",
+            "fields": {
+                "name": "nvm",
+                "官网": "https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html"
+            }
+        }
+    ],
+    "links": [
+        {
+            "source": "frontend-techs",
+            "target": "webpack",
+            "fields": {
+	            "label": "前端打包工具"
+            }
+        },
+        {
+            "source": "nodejs",
+            "target": "expressjs",
+            "fields": {
+	            "label": "必学组件",
+                "description": "Express 之于 Node.js 就好比 TypeScript 之于前端开发，Express 能让我们用前端语言搭建简单的后端服务，我们会用来解藕前后端开发，能让前后端的开发能够独立进行"
+            }
+        },
+        {
+            "source": "nodejs",
+            "target": "nvm",
+            "fields": {
+	            "label": "实现本地 Node.js 多版本开发"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "graphql",
+            "fields": {
+	            "label": "我们与后端的交互全部使用"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "nodejs",
+            "fields": {
+	            "label": "Messier-61 会用此模拟后台"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "login",
+            "fields": {
+	            "label": "常见的前端功能"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "editor",
+            "fields": {
+	            "label": "我们的软件功能需要实现"
+            }
+        },
+        {
+            "source": "editor",
+            "target": "lexical",
+            "fields": {
+	            "label": "编辑器框架"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "typescript",
+            "fields": {
+	            "label": "前端必学语言"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "react",
+            "fields": {
+	            "label": "最流行的前端开发语言"
+            }
+        },
+        {
+            "source": "react",
+            "target": "redux",
+            "fields": {
+	            "label": "常用的组件"
+            }
+        },
+        {
+            "source": "react",
+            "target": "react-redux",
+            "fields": {
+	            "label": "常用的组件"
+            }
+        },
+        {
+            "source": "react",
+            "target": "redux-toolkit",
+            "fields": {
+	            "label": "常用的组件"
+            }
+        },
+        {
+            "source": "login",
+            "target": "jwt",
+            "fields": {
+	            "label": "登录者身份认证技术"
+            }
+        },
+        {
+            "source": "login",
+            "target": "graphql",
+            "fields": {
+	            "label": "与后端的数据交互"
+            }
+        },
+        {
+            "source": "graphql",
+            "target": "apollo-client",
+            "fields": {
+	            "label": "前端流行的 GraphQL 框架实现"
+            }
+        },
+        {
+            "source": "frontend-techs",
+            "target": "testing",
+            "fields": {
+	            "label": "编写",
+                "description": "编写测试已经成为开发人员越来越重要的一项能力，国外大厂，例如雅虎，已经开除了公司所有的开发团队，要求开发人员来编写测试，这么做对于产品质量和开发人员的技术发展都有长远的好处"
+            }
+        },
+        {
+            "source": "testing",
+            "target": "jest",
+            "fields": {
+	            "label": "单元测试"
+            }
+        },
+        {
+            "source": "testing",
+            "target": "cypress",
+            "fields": {
+	            "label": "E2E 测试"
+            }
+        },
+        {
+            "source": "cypress",
+            "target": "mocha",
+            "fields": {
+	            "label": "语法实现直接来自"
+            }
+        }
+    ]
+}
