@@ -152,6 +152,13 @@
             }
         },
         {
+            "source": "frontend-techs",
+            "target": "yarn",
+            "fields": {
+	            "label": "前端项目管理"
+            }
+        },
+        {
             "source": "nodejs",
             "target": "expressjs",
             "fields": {
