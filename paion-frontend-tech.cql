@@ -126,6 +126,10 @@ WHERE source.id = "frontend-techs" AND target.id = "webpack"
 CREATE (source)-[r:`前端打包工具`]->(target) RETURN type(r);
 
 MATCH (source:Concept), (target:Concept)
+WHERE source.id = "frontend-techs" AND target.id = "yarn"
+CREATE (source)-[r:`前端项目管理`]->(target) RETURN type(r);
+
+MATCH (source:Concept), (target:Concept)
 WHERE source.id = "nodejs" AND target.id = "expressjs"
 CREATE (source)-[r:`必学组件`]->(target) RETURN type(r);
 
