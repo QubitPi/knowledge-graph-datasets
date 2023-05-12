@@ -129,10 +129,17 @@
             }
         },
         {
+            "id": "yarn",
+            "fields": {
+                "name": "Yarn",
+                "官网": "https://yarnpkg.com/"
+            }
+        },
+        {
             "id": "nvm",
             "fields": {
                 "name": "nvm",
-                "官网": "https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html"
+                "官网": "https://qubitpi.github.io/jersey-guide/2023/04/12/nvm.html"
             }
         }
     ],
