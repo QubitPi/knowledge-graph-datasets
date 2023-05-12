@@ -109,10 +109,16 @@ CREATE (expressjs:Concept {
     官网: "https://expressjs.com/"
 });
 
+CREATE (yarn:Concept {
+    id: "yarn",
+    name: "Yarn",
+    官网: "https://yarnpkg.com/"
+});
+
 CREATE (nvm:Concept {
     id: "nvm",
     name: "nvm",
-    官网: "https://npm.github.io/installation-setup-docs/installing/using-a-node-version-manager.html"
+    官网: "https://qubitpi.github.io/jersey-guide/2023/04/12/nvm.html"
 });
 
 MATCH (source:Concept), (target:Concept)
